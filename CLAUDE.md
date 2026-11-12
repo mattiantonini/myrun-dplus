@@ -11,7 +11,7 @@ Static trail running race log for several athletes, published with GitHub Pages 
 4. Relative URLs only (the site is served from `/myrun-dplus/`).
 5. Pages deploys from branch `main`, folder `/`. Keep `.nojekyll`. No GitHub Actions deploy workflow.
 6. Dev tooling uses Node built-ins only, run with plain `node`.
-7. Small readable modules, JSDoc on exported functions, no dead code, about 2,000 lines of JS.
+7. Small readable modules, JSDoc on exported functions, no dead code.
 
 ## Data contract
 
