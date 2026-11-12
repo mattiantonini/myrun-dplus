@@ -1,0 +1,142 @@
+[
+  {
+    "id": "2024-trail-del-bosco-inventato-21k",
+    "name": "Trail del Bosco Inventato",
+    "edition": 2024,
+    "course": "21K",
+    "date": "2024-10-13",
+    "distanceKm": 21,
+    "elevationGainM": 1100,
+    "elevationLossM": 1100,
+    "location": {
+      "place": "Beispieltal",
+      "region": "Tirol",
+      "country": "AT",
+      "lat": 47.0582,
+      "lon": 11.4873
+    },
+    "startTime": "2024-10-13T09:00:00+02:00",
+    "status": "finished",
+    "time": "02:31:07",
+    "ranking": {
+      "overall": 58,
+      "overallTotal": 301,
+      "gender": 7,
+      "genderTotal": 92
+    },
+    "bib": "45",
+    "rating": 4,
+    "weather": "Autumn fog, 6 °C",
+    "notes": "Sample entry without heart-rate data and without category ranking, to show how missing fields degrade.",
+    "tags": [
+      "sample"
+    ],
+    "gpx": "gpx/2024-trail-del-bosco-inventato-21k.gpx"
+  },
+  {
+    "id": "2025-valfinta-sky-race-32k",
+    "event": "valfinta-sky-race-32k-2025",
+    "name": "Valfinta Sky Race",
+    "edition": 2025,
+    "course": "32K",
+    "date": "2025-07-12",
+    "distanceKm": 32,
+    "elevationGainM": 2250,
+    "elevationLossM": 2250,
+    "type": "sky",
+    "location": {
+      "place": "Valfinta",
+      "region": "Veneto",
+      "country": "IT",
+      "lat": 46.5021,
+      "lon": 11.9534
+    },
+    "startTime": "2025-07-12T07:00:00+02:00",
+    "status": "finished",
+    "time": "05:21:44",
+    "ranking": {
+      "overall": 171,
+      "overallTotal": 438,
+      "gender": 19,
+      "genderTotal": 86,
+      "category": 6,
+      "categoryName": "F35",
+      "categoryTotal": 24
+    },
+    "itraPoints": 2,
+    "itraScore": 505,
+    "utmbIndex": 498,
+    "bib": "127",
+    "rating": 5,
+    "weather": "Sunny, windy on the ridge",
+    "notes": "Sample entry. Even pacing all day and a fast last descent.",
+    "aid": [
+      {
+        "name": "Rifugio Finto",
+        "km": 8.4,
+        "time": "01:28:55"
+      },
+      {
+        "name": "Passo Immaginario",
+        "km": 15.1,
+        "time": "02:43:10"
+      },
+      {
+        "name": "Malga Esempio",
+        "km": 24.3,
+        "time": "04:12:57"
+      }
+    ],
+    "tags": [
+      "sample"
+    ],
+    "gpx": "gpx/2025-valfinta-sky-race-32k.gpx"
+  },
+  {
+    "id": "2025-gran-giro-immaginario-62k",
+    "event": "gran-giro-immaginario-62k-2025",
+    "name": "Gran Giro Immaginario",
+    "edition": 2025,
+    "course": "62K",
+    "date": "2025-09-06",
+    "distanceKm": 62,
+    "elevationGainM": 3350,
+    "elevationLossM": 3350,
+    "location": {
+      "place": "Musterdorf",
+      "region": "Valais",
+      "country": "CH",
+      "lat": 46.0193,
+      "lon": 7.7461
+    },
+    "startTime": "2025-09-06T06:00:00+02:00",
+    "status": "dnf",
+    "time": "07:12:00",
+    "dnfAtKm": 38.5,
+    "bib": "1045",
+    "rating": 2,
+    "weather": "Cold start, hot afternoon",
+    "notes": "Sample entry. Stomach trouble from the second climb, **stopped at the Musterhütte aid station**.",
+    "aid": [
+      {
+        "name": "Alpe Beispiel",
+        "km": 9.8,
+        "time": "01:41:35"
+      },
+      {
+        "name": "Lac Fictif",
+        "km": 21.5,
+        "time": "03:53:03"
+      },
+      {
+        "name": "Musterhütte",
+        "km": 38.5,
+        "time": "07:11:01"
+      }
+    ],
+    "tags": [
+      "sample"
+    ],
+    "gpx": "gpx/2025-gran-giro-immaginario-62k.gpx"
+  }
+]
