@@ -1,0 +1,9 @@
+{
+  "title": "my runD+",
+  "locale": "it-IT",
+  "defaultAthlete": null,
+  "athletes": [
+    "sample-runner-a",
+    "sample-runner-b"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "sample-runner-a",
+  "name": "Sample Runner A",
+  "bio": "Fictional athlete with synthetic races, here to show what the site looks like. Safe to delete.",
+  "club": "Sample Trail Club",
+  "avatar": "avatar.svg",
+  "color": "#eb6834",
+  "links": {}
+}
