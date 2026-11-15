@@ -10,10 +10,6 @@ Published at <https://mattiantonini.github.io/myrun-dplus/>.
 - The only runtime dependency is [Leaflet 1.9.4](https://leafletjs.com), loaded from unpkg with SRI hashes.
 - Everything the site shows lives in [`data/`](data/), one folder per athlete, and is read with `fetch()`.
 
-> The repository ships with two fictional athletes ("Sample Runner A" and "Sample Runner B")
-> and synthetic GPX tracks so that every view has something to show.
-> See [Removing the sample data](#removing-the-sample-data).
-
 ## Run it locally
 
 ```bash
@@ -192,22 +188,6 @@ Notes:
   (km + D+ / 100) and pace per effort-km, ranking percentiles ("Top 22%"), inferred type,
   year, and resolved asset paths.
 
-## Removing the sample data
-
-Everything fictional is tagged `"sample"` and lives in two folders:
-
-```bash
-rm -r data/athletes/sample-runner-a data/athletes/sample-runner-b
-```
-
-```bash
-node scripts/validate.mjs --fix
-```
-
-The second command removes the two ids from `data/site.json`. One test
-(`the sample data loads…` in `tests/data.test.mjs`) and one in `tests/gpx.test.mjs`
-(`sample GPX files parse…`) read the sample files: delete those two tests as well.
-
 ## Privacy
 
 **Everything in `data/` is public** once the site is published: names, results, photos,
@@ -239,5 +219,3 @@ tests/*.test.mjs      node:test unit tests
 - Map data © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors, ODbL.
   Please respect the [tile usage policy](https://operations.osmfoundation.org/policies/tiles/).
 - Topographic tiles © [OpenTopoMap](https://opentopomap.org) (CC-BY-SA), elevation data SRTM.
-- The sample athletes, races and GPX tracks are synthetic. Their coordinates lie in the Alps
-  but the routes, names and results are invented.

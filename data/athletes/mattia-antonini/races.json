@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2026-winter-tarsogno-trail-12k",
+    "event": "winter-tarsogno-trail-12k-2026",
+    "name": "Winter Tarsogno Trail",
+    "edition": 2026,
+    "course": "12K",
+    "date": "2026-11-08",
+    "startTime": "2026-11-08T09:30:21+01:00",
+    "location": {
+      "place": "Tarsogno, Tornolo (PR)",
+      "region": "Emilia-Romagna",
+      "country": "IT",
+      "lat": 44.4482,
+      "lon": 9.62399
+    },
+    "distanceKm": 12,
+    "elevationGainM": 508,
+    "elevationLossM": 507,
+    "status": "finished",
+    "time": "01:24:31",
+    "ranking": {
+      "overall": 90,
+      "overallTotal": 123,
+      "gender": 64,
+      "genderTotal": 74,
+      "category": 20,
+      "categoryName": "M18..39",
+      "categoryTotal": 23
+    },
+    "bib": "50",
+    "links": {
+      "results": "https://www.irunning.it/classifica.php?id=43818&mode_filter=ind",
+      "strava": "https://www.strava.com/activities/20905950995"
+    },
+    "gpx": "gpx/2026-winter-tarsogno-trail-12k.gpx"
+  }
+]

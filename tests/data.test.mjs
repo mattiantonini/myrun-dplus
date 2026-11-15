@@ -126,10 +126,8 @@ test('headToHead counts wins and gaps on shared events only', async () => {
   assert.deepEqual(rows.map((r) => [r.key, r.winner.athlete.id, r.gapS]).sort(), [['e1', 'a', 600], ['e2', 'b', 1800], ['e3', 'b', null]]);
 });
 
-test('the sample data loads and links its shared events', async () => {
+test('the data folder loads without errors', async () => {
   const data = await d.loadData(fromDisk);
-  assert.equal(data.errors.length, 0);
-  assert.equal(data.athletes.length, 2);
-  assert.ok(data.races.every((r) => r.tags?.includes('sample')));
-  assert.ok(d.sharedEvents(data.events).length >= 1);
+  assert.deepEqual(data.errors, []);
+  assert.ok(data.athletes.length >= 1);
 });
