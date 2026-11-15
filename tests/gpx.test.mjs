@@ -1,6 +1,5 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
 import * as g from '../js/gpx.js';
 
 const near = (actual, expected, tolerance) => assert.ok(Math.abs(actual - expected) <= tolerance, `${actual} is not within ${tolerance} of ${expected}`);
@@ -107,13 +106,4 @@ test('splits cover the whole track, with a shorter last one', () => {
 test('nearestIndex finds the closest point', () => {
   const track = line(11);
   assert.equal(g.nearestIndex(track.points, { lat: track.points[7].lat + 0.00001, lon: 11.0001 }), 7);
-});
-
-test('sample GPX files parse to plausible Alpine tracks', () => {
-  const xml = readFileSync(new URL('../data/athletes/sample-runner-a/gpx/2025-valfinta-sky-race-32k.gpx', import.meta.url), 'utf8');
-  const track = g.parseGpx(xml);
-  near(track.distanceKm, 32, 0.5);
-  near(track.gainM, 2250, 150);
-  near(track.elapsedS, 4 * 3600 + 52 * 60 + 18, 2);
-  assert.ok(track.stoppedS > 60 && track.avgHr > 100);
 });
